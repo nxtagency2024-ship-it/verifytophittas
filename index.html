@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Verification</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Roboto,sans-serif;
+
+    /* Replace with your GIF link */
+    background:url("YOUR-GIF-LINK-HERE") center center / cover no-repeat fixed;
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Dark overlay so the GIF isn't distracting */
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    z-index:-1;
+}
+
+/* Card */
+.verification-box{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:20px;
+    width:90%;
+    max-width:420px;
+    padding:35px;
+    text-align:center;
+}
+
+.verification-logo img{
+    width:150px;
+}
+
+.verification-checkmark img{
+    width:55px;
+    margin:20px 0;
+}
+
+h1{
+    color:white;
+    margin-bottom:15px;
+}
+
+p{
+    color:#d8d8d8;
+    line-height:1.6;
+}
+
+button{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    font-size:18px;
+    font-weight:bold;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    background:white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="verification-box">
+
+<div class="verification-logo">
+<img src="https://cdn.shopify.com/s/files/1/0986/7323/0133/files/aw-removebg-preview.png?v=1786328993">
+</div>
+
+<div class="verification-checkmark">
+<img src="https://cdn.shopify.com/s/files/1/0986/7323/0133/files/check.png?v=1786329152">
+</div>
+
+<h1>AUTHENTIC PRODUCT</h1>
+
+<p>
+This certificate confirms that your purchase is authentic.
+Thank you for your support!
+</p>
+
+<a href="https://tophittas.com/">
+<button>BACK TO WEBSITE</button>
+</a>
+
+</div>
+
+</body>
+</html>
